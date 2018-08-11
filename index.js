@@ -7,6 +7,6 @@ obj1[key] = val;return obj1;
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(obj,key,val){
-  obj.key = value;
+  obj.key = val;
   return obj;
 }
