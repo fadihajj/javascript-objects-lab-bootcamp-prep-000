@@ -8,4 +8,5 @@ obj1[key] = val;return obj1;
 
 function destructivelyUpdateObjectWithKeyAndValue(obj,key,val){
   delete obj[key];
+  return obj;
 }
